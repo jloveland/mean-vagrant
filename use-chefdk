@@ -1,0 +1,2 @@
+#!/bin/bash
+eval "$(chef shell-init zsh)"
