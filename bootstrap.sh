@@ -7,7 +7,7 @@ npm install -g grunt-cli
 npm install -g bower
 
 # Install Mean.JS Packages
-npm install
+npm install --no-bin-links
 
 # Run Mean.JS
 NODE_ENV=development nohup node server.js > /home/vagrant/mean-output.log &
