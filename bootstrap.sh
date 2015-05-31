@@ -10,7 +10,7 @@ npm install -g bower
 npm install --no-bin-links
 
 # Run Mean.JS
-NODE_ENV=development nohup node server.js > /home/vagrant/mean-output.log &
+NODE_ENV=development nohup node server.js > /dev/null &
 
 # Run in production mode
 # NODE_ENV=secure nohup node server.js > /tmp/mean-output.log &
